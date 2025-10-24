@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HYB HSR EXPRESS (17020) - Indian Railways</title>
+
+  <!-- Favicon (Indian Railways) -->
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Indian_Railways_logo.svg/1200px-Indian_Railways_logo.svg.png" type="image/png">
+
+  <!-- Google Fonts: Use Rajdhani or similar official font style -->
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Rajdhani', sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+
+    /* Indian Railways Header */
+    .ir-header {
+      background: linear-gradient(135deg, #c8102e, #9a0d24); /* Official IR Red */
+      color: white;
+      padding: 12px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+   070    .ir-logo {
+      display: flex;
+      align-items: center;
+      font-weight: 700;
+      font-size: 24px;
+      color: white;
+      text-decoration: none;
+    }
+
+    .ir-logo img {
+      height: 44px;
+      margin-right: 12px;
+      filter: brightness(0) invert(1);
+    }
+
+    .ir-title {
+      font-size: 22px;
+      font-weight: 600;
+    }
+
+    .ir-tagline {
+      font-size: 13px;
+      font-weight: 500;
+      opacity: 0.9;
+      margin-top: 2px;
+    }
+
+    .ir-nav {
+      font-size: 14px;
+    }
+
+    .ir-nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+    }
+
+    .ir-nav a:hover {
+      text-decoration: underline;
+    }
+
+    /* Train Table Styling */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+    th {
+      background: #9a0d24;
+      color: white;
+      padding: 12px;
+      text-align: left;
+    }
+
+    td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #fff8e1;
+    }
+
+    .train-name {
+      font-weight: bold;
+      color: #c8102e;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Indian Railways Official Header -->
+  <header class="ir-header">
+    <a href="#" class="ir-logo">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/84/Indian_Railways_logo.svg/1200px-Indian_Railways_logo.svg.png" alt="Indian Railways Logo">
+      <div>
+        <div class="ir-title">Indian Railways</div>
+        <div class="ir-tagline">भारतीय रेल • Lifeline of the Nation</div>
+      </div>
+    </a>
+    <nav class="ir-nav">
+      <a href="#">Train Enquiry</a>
+      <a href="#">PNR Status</a>
+      <a href="#">Book Ticket</a>
+    </nav>
+  </header>
+
+  <!-- Your Existing Train Table (Keep as-is below) -->
+  <div style="padding: 20px; max-width: 1200px; margin: auto; background: white; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    <h2 style="color: #9a0d24; margin-bottom: 10px;">HYB HSR EXPRESS (17020)</h2>
+    <p style="color: #555; margin-bottom: 15px;">HYDERABAD DECAN to HISAR</p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>S.No.</th>
+          <th>Station Name</th>
+          <th>CODE</th>
+          <th>Distance</th>
+          <th>Platform</th>
+          <th>Type</th>
+          <th>Zone</th>
+          <th>Train Timings</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Your existing rows go here -->
+        <tr>
+          <td>1</td>
+          <td>HYDERABAD DECAN</td>
+          <td>HYB</td>
+          <td>0 kms</td>
+          <td>Platform: 6</td>
+          <td>A</td>
+          <td>SCR</td>
+          <td>Source (Day 1)<br>15:10 (Day 1)</td>
+        </tr>
+        <!-- Add other rows similarly -->
+      </tbody>
+    </table>
+  </div>
+
+</body>
+</html>
